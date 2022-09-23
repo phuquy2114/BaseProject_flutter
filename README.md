@@ -2,6 +2,35 @@
 
 A new Flutter project.
 
+  # singleTon
+  get_it: ^7.2.0
+
+  # save share
+  shared_preferences: ^2.0.13
+
+  # dio fetch data
+  dio: ^4.0.4
+  retrofit: ^3.0.1+1
+  connectivity: ^3.0.6
+  pretty_dio_logger: ^1.1.1
+  json_serializable: ^6.1.5
+  heic_to_jpg: ^0.2.0
+  json_annotation: ^4.4.0
+  http: ^0.13.4
+  logger: ^1.1.0
+
+  # state management block, redux, GetX , Provider
+  provider: ^6.0.2
+
+  # detector
+  visibility_detector: ^0.3.3
+
+  flutter_spinkit: ^5.1.0
+
+
+export PATH="$PATH:/Users/quydo/Documents/setting/flutter/bin"
+flutter pub run build_runner build --delete-conflicting-outputs
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
