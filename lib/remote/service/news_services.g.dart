@@ -32,7 +32,7 @@ class _NewsService implements NewsService {
     )
             .compose(
               _dio.options,
-              '/new/all',
+              '/news/all',
               queryParameters: queryParameters,
               data: _data,
             )

@@ -10,6 +10,6 @@ part 'news_services.g.dart';
 abstract class NewsService {
   factory NewsService(Dio dio, {String baseUrl}) = _NewsService;
 
-  @GET('/new/all')
+  @GET('/news/all')
   Future<NewAllResponse> getNewAll();
 }
